@@ -10,8 +10,9 @@ import {
 import Register from './Pages/Register/register';
 
 
-function App() {
+const App = () => {
   return (
+    <div>
     <Router>
       <Switch>
         <Route exact path= "/">
@@ -25,9 +26,12 @@ function App() {
         </Route>
         <Route path= "/landing">
           <Home/>
+          <Mainpage/>
+          <Topbar/>
         </Route>
       </Switch>
     </Router>
+    </div>
   );
 }
 
