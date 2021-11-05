@@ -4,7 +4,7 @@ import "./timeline.css"
 function Timeline() {
     return (
         <div className="Timeline">
-         <div className= "timlineWrapper">
+         <div className= "timelineWrapper">
              
          </div>
         </div>

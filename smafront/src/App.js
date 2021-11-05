@@ -3,20 +3,22 @@ import Topbar from './Components/Topbar/topbar';
 import Mainpage from './Components/MainPage/mainpage';
 import Login from './Pages/Login/login';
 import React from "react";
-import {
-  BrowserRouter as Router,
-  Switch, Route, Link
-} from "react-router-dom";
+import {BrowserRouter as Router,Switch, Route, Link} from "react-router-dom";
 import Register from './Pages/Register/register';
+import {useState} from 'react'
 
 
-const App = () => {
+
+
+
+function App() {
+  const [username, setUsername]= useState("")
+
   return (
-    <div>
     <Router>
       <Switch>
         <Route exact path= "/">
-          <Login/>
+          <Register/>
         </Route>
         <Route path= "/Login">
           <Login/>
@@ -26,12 +28,9 @@ const App = () => {
         </Route>
         <Route path= "/landing">
           <Home/>
-          <Mainpage/>
-          <Topbar/>
         </Route>
       </Switch>
     </Router>
-    </div>
   );
 }
 
