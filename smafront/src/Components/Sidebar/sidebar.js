@@ -35,8 +35,6 @@ export default function Sidebar() {
             <span className="sidebarListItemText">VA Benefits</span>
           </li>
         </ul>
-        <button className="sidebarButton">Show More</button>
-        <hr className="sidebarHr" />
       </div>
     </div>
   );

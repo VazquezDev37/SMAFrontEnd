@@ -6,6 +6,7 @@ import React from "react";
 import {BrowserRouter as Router,Switch, Route, Link} from "react-router-dom";
 import Register from './Pages/Register/register';
 import {useState} from 'react'
+//import Post from './Components/Post/post';
 
 
 
@@ -23,11 +24,8 @@ function App() {
         <Route path= "/Login">
           <Login/>
         </Route>
-        <Route path= "/Register">
-          <Register/>
-        </Route>
-        <Route path= "/landing">
-          <Home/>
+        <Route path= "/MainPage">
+          <Mainpage/>
         </Route>
       </Switch>
     </Router>

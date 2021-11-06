@@ -1,4 +1,4 @@
-import "./register.css"
+import "./jregister.css"
 import React, {useState} from 'react'
 import {useHistory} from 'react-router-dom'
 import axios from "axios";
@@ -8,8 +8,8 @@ function Register() {
   const [username, setUsername ]=useState("")
   const [email, setEmail ]=useState("")
   const [password, setPassword]=useState("") 
-
-  let item={username, email, password}
+const history = useHistory();
+  
   
   const submitRegister = () =>{
 
@@ -19,7 +19,8 @@ function Register() {
       password: password, 
      }).then((response) => {
        console.log(response)
-     });
+     })
+     .then(() => history.push('/Login'))
      }
      
 
