@@ -1,5 +1,6 @@
 import React from 'react'
 import Status from '../StatusBox/status';
+import './newsfeed.css';
 
 
 function Newsfeed() {

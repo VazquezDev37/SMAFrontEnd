@@ -24,7 +24,7 @@ export default function Sidebar() {
           </li>
           <li className="sidebarListItem">
             <WorkIcon className="sidebarIcon" />
-            <span className="sidebarListItemText">Employment Opprotunities </span>
+            <span className="sidebarListItemText">Employment Opportunities </span>
           </li>
           <li className="sidebarListItem">
             <PhoneInTalk className="sidebarIcon" />

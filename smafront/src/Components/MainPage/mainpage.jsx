@@ -3,6 +3,7 @@ import "./mainpage.css"
 import Sidebar from '../Sidebar/sidebar';
 import Topbar from '../Topbar/topbar';
 import Newsfeed from '../NewsFeed/newsfeed';
+//import pic1 from '../pic1.jpg';
 
 function Mainpage() {
     return (
@@ -26,7 +27,7 @@ function Mainpage() {
             </div>
             <div className="profileInfo">
                 <h4 className="profileInfoName">John Wick</h4>
-                <span className="profileInfoDesc">Hello!</span>
+                <span className="profileInfoDesc">Hello My Fellow DevCodeCampers!</span>
             </div>
           </div>
           <div className="profileRightBottom">
