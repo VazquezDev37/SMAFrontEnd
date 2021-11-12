@@ -10,6 +10,7 @@ import Auth from "./Components/AuthApp/auth";
 import { useHistory } from "react-router-dom";
 import jwtDecoded from "jwt-decode";
 
+
 function App() {
   return (
     <Router>
